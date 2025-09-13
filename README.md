@@ -1,2 +1,2 @@
 # libft_pivox
-My first c lib
+My first c library 
