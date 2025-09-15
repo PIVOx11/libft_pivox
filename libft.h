@@ -3,5 +3,4 @@
 #include <string.h>
 
 size_t  ft_strlen(const char *s);
-q
 #endif
