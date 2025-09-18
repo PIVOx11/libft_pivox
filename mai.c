@@ -1,6 +1,7 @@
 #include "libft.h"
 
-int main ()
+ int main()
 {
-    ft_putstr("HELLO STUDent");
+    ft_putstr(ft_itoa(-123466));
 }
+
