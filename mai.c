@@ -1,7 +1,8 @@
 #include "libft.h"
-
+#include <stdio.h>
  int main()
 {
-    ft_putstr(ft_itoa(-123466));
+    printf("%c",ft_toupper('k'));
+    
 }
 
