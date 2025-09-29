@@ -3,7 +3,8 @@ CFLAGS = -Wall -Wextra -Werror
 
 SRC = ft_strlen.c ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_isascii.c \
 	  ft_isprint.c ft_itoa.c ft_putchar.c ft_strlen.c ft_tolower.c \
-	  ft_toupper.c ft_memset.c ft_strcpy.c ft_bzero.c
+	  ft_toupper.c ft_memset.c ft_strcpy.c ft_bzero.c ft_memcpy.c \
+	  
 OBGS = $(SRC:.c=.o)
 
 NAME = libft.a

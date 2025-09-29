@@ -3,12 +3,12 @@
 
 int main()
 {
-    char str[] = "dady is home dc";
-    ft_memset(str,67,5);
-    printf("%s\n",str);
+    char str[10];
+    char src[] = "hello btc";
 
-    char dest[10];
-    ft_strcpy(dest, "hello btc");
-        printf("%s\n",dest);
+    ft_memcpy(str,src,4);
+    str[4] = '\0';
+
+    printf("%s\n",str);
 
 }
