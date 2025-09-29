@@ -9,19 +9,25 @@ OBGS = $(SRC:.c=.o)
 NAME = libft.a
 
 all: $(NAME)
+
 # Build library.
+
 $(NAME): $(OBGS)
 	ar rcs $(NAME) $(OBGS)
+
 %.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 #Clean rules
+
 clean:
 	rm -f $(OBGS)
+
 fclean: clean
 	rm -f $(NAME)
 
 #rebuld my library
+
 re: fclean all
 
 #Test ruls
