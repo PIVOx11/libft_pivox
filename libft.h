@@ -18,7 +18,7 @@ int     ft_toupper(int c);
 int     ft_isdigit(int c);
 int     ft_isalpha(int c);
 char    *ft_strcpy(char *dest, char *src);
-
+void    ft_bzero(void *s, size_t n);
 
 
 
