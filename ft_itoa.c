@@ -1,5 +1,4 @@
 #include "libft.h"
-#include <stdlib.h>
 
 static int len_count(int nb)
 {
